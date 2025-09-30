@@ -25,12 +25,12 @@ tqdm
 pip install pandas numpy librosa tensorflow scikit-learn matplotlib requests tqdm
 
 # Project Structure
-├── Main.py                 # Main training script
-├── Main.ipynb             # Jupyter notebook version
-├── download_audio.py      # Script to download audio files from Xeno-Canto
-├── BirdsVoice.csv        # Dataset metadata (not included)
-├── audio/                 # Directory for downloaded audio files
-└── README.md             # This file
+├── Main.py             
+├── Main.ipynb           
+├── download_audio.py      
+├── BirdsVoice.csv       
+├── audio/                 
+└── README.md             
 
 # License
 This project uses data from Xeno-Canto, which is available under various Creative Commons licenses. Please respect the individual licenses of each recording.
