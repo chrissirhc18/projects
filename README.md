@@ -10,7 +10,7 @@ Data Augmentation: Handles variable-length audio through padding/truncation
 Train/Val/Test Split: Proper 60/20/20 stratified data splitting
 Visualization: Confusion matrix for performance analysis
 
-Required libraries: 
+# Required libraries: 
 
 pandas
 numpy
@@ -21,7 +21,7 @@ matplotlib
 requests
 tqdm
 
-# Check directory before bash command
+*Check directory before bash command*
 pip install pandas numpy librosa tensorflow scikit-learn matplotlib requests tqdm
 
 # Project Structure
