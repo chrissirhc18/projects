@@ -1,8 +1,9 @@
 # Bird Sound Classification using Neural Networks
 A deep learning project for classifying bird species based on their vocalizations using Convolutional Neural Networks (CNNs) and mel-spectrogram audio features.
 
-This project implements an audio classification system that can identify bird species from their recorded calls. It processes audio recordings from the Xeno-Canto database, converts them into mel-spectrograms, and trains a CNN to classify them into 20 different bird species.Features
+This project implements an audio classification system that can identify bird species from their recorded calls. It processes audio recordings from the Xeno-Canto database, converts them into mel-spectrograms, and trains a CNN to classify them into 20 different bird species.
 
+# Features
 Audio Processing: Converts bird vocalizations into mel-spectrograms for neural network input
 CNN Architecture: Custom convolutional neural network for audio classification
 Top 20 Species: Focuses on the most well-represented bird species in the dataset
@@ -10,7 +11,7 @@ Data Augmentation: Handles variable-length audio through padding/truncation
 Train/Val/Test Split: Proper 60/20/20 stratified data splitting
 Visualization: Confusion matrix for performance analysis
 
-# Required libraries: 
+# Required libraries:  
 
 pandas
 numpy
